@@ -1,0 +1,61 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    width: 100%;
+    background-position: center;
+    background-size: cover;
+    /* height: 100vh; */
+    position: relative;
+    font-family: sans-serif;
+}
+.nav .logo{
+    width: 160px;
+    cursor: pointer;
+    margin-top: 3%;
+    margin-left: 2%;
+}
+
+.nav {
+    width: 86px;
+    display: flex;
+    margin: 0;
+    padding: 15px 0;
+    align-items: center;
+    justify-content: space-between;
+}
+ul{
+    margin-top: -2%;
+}
+ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 16px;
+}
+
+ul li a{
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+}
+
+ul li a:hover{
+color: white;
+}
+
+.info{
+    margin-top: 20px;
+    margin-left: 20px;
+}
+
+.info h3{
+    font-size: 25px;
+    color: black;
+}
+info h2{
+    font-size: 5px;
+    letter-spacing: 2px;
+}
